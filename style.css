@@ -1,0 +1,36 @@
+
+
+.main {
+    width: 500px;
+}
+
+#screen {
+    width: 475px;
+    height: 7rem;
+    margin-left: 5px;
+    border-style: solid;
+    border-color: black;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    font-size: 30px;
+}
+
+
+#lowerHalf {
+    display:flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 500px;
+    height: 50vh;
+}
+
+.buttonTop {
+    width: 480px;
+    height: 7rem;
+}
+
+.button {
+    width: 7rem;
+    height: 7rem;
+}
