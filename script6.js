@@ -260,7 +260,7 @@ divide.addEventListener('click', (e) => {
     destination = "b";
     if (isCalcReady()) {
         convertABtoNum();
-        cChar = addNum();
+        cChar = correspondingCalc();
         cNum = convertChartoNum(cChar)
         clearChildren()
         displaycChar()
@@ -277,7 +277,7 @@ multiply.addEventListener('click', (e) => {
     destination = "b";
     if (isCalcReady()) {
         convertABtoNum();
-        cChar = addNum();
+        cChar = correspondingCalc();
         cNum = convertChartoNum(cChar)
         clearChildren()
         displaycChar()
@@ -294,7 +294,7 @@ subtract.addEventListener('click', (e) => {
     destination = "b";
     if (isCalcReady()) {
         convertABtoNum();
-        cChar = addNum();
+        cChar = correspondingCalc();
         cNum = convertChartoNum(cChar)
         clearChildren()
         displaycChar()
@@ -310,7 +310,7 @@ add.addEventListener('click', (e) => {
     destination = "b";
     if (isCalcReady()) {
         convertABtoNum();
-        cChar = addNum();
+        cChar = correspondingCalc();
         cNum = convertChartoNum(cChar)
         clearChildren()
         displaycChar()
