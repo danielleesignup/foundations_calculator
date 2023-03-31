@@ -333,7 +333,7 @@ equals.addEventListener('click', (e) => {
     clearChildren()
     displaycChar()
     prepareNextCalc();
-    destination = "b";
+    destination = "a";
     
 })
 
